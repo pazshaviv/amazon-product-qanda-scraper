@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <h1>Amazon Product Page Q&A Scraper</h1>
+    <form id="inputForm">
+        <label for="asin">ASIN:</label>
+        <input type="text" id="asin" name="asin" placeholder="e.g.: B07P6Y7954" value="B07P6Y7954"><br><br>
+        <label for="pages">QandA Pages Amount to Scrape:</label>
+        <input type="text" id="pages" value="10"><br><br>
+        <button>Start scraping</button><br><br>
+        <div id="scraping"></div><br><br>
+    </form>
+
+    <form id="outputForm" action="http://localhost:3000/results">
+        <input id="jsonlink" type="submit" value="Download scraped data" disabled="false" />
+    </form>
+
+    <script src="/js/app.js"></script>
+</body>
+
+</html>

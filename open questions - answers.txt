@@ -1,0 +1,22 @@
+1. Suggest product features on one of our sites (BestReviewsGuide) that are enabled by the Q&A data.
+
+We can analyze the Q&A data and get information of:
+a. Popularity of a product according to the questions amount.
+b. We can understand what's the most important specification about a certain product according to the content of the questions - if we have repetetive question about something specific in the product. 
+If the answers' sentiment are positive - it should rank the product higher. 
+c. We can identify trends globally and rank products accordingly (safety, environment friendly, etc..)
+d. We can analyze the questions and answers sentiment - positive or negative. If a product has a lot of positive answers it should rank it higher (we can also distinguish between answers from owner or buyer). We can add it of course to the product highlights at your site.
+
+2. What kind of business impact would you imagine this idea would have?
+
+a. It would create a community of intelligent consumerism.
+b. In our generation of Time=Money which everything has to be available fast and immediate - the Q&A data analiazation gives the customer small chunks of information which is more accurate to his needs, and saves him time and energy.
+c. Tailored made recommendation information for the customer.
+d. Can give other businesses and product makers insights about how to create or build their product and which specifications they should care about and influence their strategy.
+
+3. What KPI can capture the impact of the feature?
+
+A/B testing (with the feature and without):
+a. Amount of clicks on a product.
+b. Retention of users
+c. Average visits amount per day

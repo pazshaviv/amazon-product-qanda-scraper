@@ -1,0 +1,32 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "Amazon Product QandA Scraper"
+paths:
+  /qand/{asin}:
+    post:
+      summary: "Start scraping product page by the product ASIN number"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "asin"
+        in: "path"
+        required: true
+        type: "string"
+        minimum: 1.0
+      responses:
+        "200":
+          description: "successful operation"
+        "400":
+          description: "Invalid ASIN supplied"
+  /results/:
+    get:
+      summary: "Get scraped data"
+      produces:
+      - "application/json"
+      responses:
+        "200":
+          description: "successful operation"
+        
+externalDocs:
+  url: "https://github.com/pazshaviv/amazon-product-qanda-scraper"
