@@ -9,3 +9,5 @@
 7. Enter how many pages of Q&A you want to scrape - more pages it will take more time.
 8. Wait untill the button for getting the json file will be enabled.
 9. Press the button in order to navigate to the json file.
+
+*If something seems not working as expected please let me know.
